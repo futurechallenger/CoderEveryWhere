@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Everywhere</string>
+    <string name="title_activity_main">Activity Name</string>
+    <string name="title_activity_login">Login Activity</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">Action Settings</string>
+
+    <!-- Login Activity -->
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="signup_with_weibo">Weibo</string>
+    <string name="signup_with_wechat">WeChat</string>
+    <string name="signup_with_email">Signup with Email</string>
+    <string name="login_with_mail">Login With Email</string>
+    <string name="service_terms">Terms of Service and Privacy Policy</string>
+    <string name="title_activity_service_terms">ServiceTermsActivity</string>
+    <string name="title_activity_email_login">EmailLoginActivity</string>
+
+    <!-- Email Login Activity -->
+    <string name="login_title">Login</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="login_create">Create</string>
+
+    <!-- signup activity -->
+    <string name="register_male">Male</string>
+    <string name="register_female">Female</string>
+    <string name="your_email">Your email</string>
+    <string name="create_account">Create account</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <!--<string name="continue_business">Continue as a business</string>-->
+
+</resources>

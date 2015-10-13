@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/common_background"
+                tools:context="com.service.codereverywhere.codereverywhere.activity.SignupActivity">
+
+    <include layout="@layout/common_title"
+             android:id="@+id/commonTitleView"/>
+
+    <LinearLayout
+            android:id="@+id/unLayout"
+            android:layout_below="@+id/commonTitleView"
+            android:background="@drawable/round_corner"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="First name"
+                      android:background="@null"
+                      android:layout_margin="10dp"
+                      android:layout_weight="1"/>
+            <View android:layout_height="match_parent"
+                  android:layout_width="1px"
+                  android:background="@color/dark_gray"/>
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_margin="10dp"
+                      android:hint="Last name"
+                      android:background="@null"
+                      android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <View android:layout_width="match_parent"
+              android:layout_height="1px"
+              android:background="@color/dark_gray"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_margin="10dp"
+                android:hint="@string/your_email"/>
+
+        <View android:layout_width="match_parent"
+              android:layout_height="1px"
+              android:background="@color/dark_gray"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@null"
+                  android:layout_margin="10dp"
+                  android:hint="@string/password"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/genederLayout"
+            android:layout_below="@+id/unLayout"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_corner"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <!--<RadioGroup-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:background="@drawable/round_corner">-->
+
+        <!--<RadioButton android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+        <!--<RadioButton android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+        <!--</RadioGroup>-->
+
+        <com.service.codereverywhere.codereverywhere.view.ButtonRadio
+                android:id="@+id/buttonRadio"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+        </com.service.codereverywhere.codereverywhere.view.ButtonRadio>
+
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/termServiceButton"
+            android:text="@string/service_terms"
+            android:textSize="10sp"
+            android:background="#00000000"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/genederLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/terms_button_text"
+            android:gravity="center"/>
+
+    <!--<Button android:id="@+id/createButton"-->
+            <!--android:text="@string/create_account"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@color/button_text_color"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/termServiceButton"/>-->
+
+    <!--<View android:id="@+id/divider"-->
+            <!--android:layout_width="match_parent"-->
+          <!--android:layout_height="1px"-->
+          <!--android:paddingLeft="80dp"-->
+          <!--android:paddingRight="80dp"-->
+          <!--android:layout_marginTop="20dp"-->
+          <!--android:layout_below="@+id/termServiceButton"-->
+          <!--android:background="@color/dark_gray"/>-->
+
+    <!--<Button android:id="@+id/businessButton"-->
+            <!--android:background="@color/transparent"-->
+            <!--android:textColor="@color/dark_gray"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/divider"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:text="@string/continue_business"/>-->
+
+
+</RelativeLayout>

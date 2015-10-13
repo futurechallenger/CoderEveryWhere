@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common -->
+    <string name="app_name">你在哪儿？</string>
+    <string name="title_activity_main">Activity Name</string>
+    <string name="title_activity_login">Login Activity</string>
+    <string name="hello_world">Hello world</string>
+
+    <string name="action_settings">Action Settings</string>
+
+    <!-- Login Activity -->
+    <string name="user_name">用户名</string>
+    <string name="password">密码</string>
+    <string name="signup_with_weibo">微博登录</string>
+    <string name="signup_with_wechat">微信登录</string>
+    <string name="signup_with_email">邮件注册</string>
+    <string name="login_with_mail">邮件登录</string>
+    <string name="service_terms">服务和隐私策略</string>
+
+    <!-- Email Login Activity -->
+    <string name="login_title">登录</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="login_create">注册</string>
+
+    <!-- signup activity -->
+    <string name="register_male">男</string>
+    <string name="register_female">女</string>
+    <string name="your_email">邮件地址</string>
+    <string name="create_account">创建账户</string>
+    <!--<string name="continue_business">Continue as a business</string>-->
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Log -->
+    <item name="log_error" type="id" />
+
+    <!-- Http -->
+    <item name="app_sign" type="id"/>
+    <item name="http_params" type="id"/>
+    <item name="http_get" type="id"/>
+    <item name="http_post" type="id"/>
+
+</resources>

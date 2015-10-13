@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.service.codereverywhere.codereverywhere.activity.LoginActivity">
+
+    <!--<include layout="@layout/common_title"-->
+    <!--android:id="@+id/commonTitle"/>-->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@color/yellow">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="EveryWhere"
+                android:gravity="center"
+                android:textSize="30sp"
+                />
+
+    </LinearLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:padding="20dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/emailSignupButton"
+                android:orientation="horizontal">
+
+            <Button android:id="@+id/weiboSigninButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signup_with_weibo"
+                    android:layout_weight="1"
+                    />
+            <Button android:id="@+id/weixinSignupButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signup_with_wechat"
+                    android:layout_weight="1"
+                    />
+
+        </LinearLayout>
+
+
+        <Button android:id="@+id/emailSignupButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signup_with_email"
+                android:layout_above="@+id/serviceTermsButton"
+                />
+
+        <Button android:id="@+id/serviceTermsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_terms"
+                android:layout_above="@+id/loginButton"
+                />
+
+        <Button android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login_with_mail"
+                android:layout_alignParentBottom="true"
+                />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
